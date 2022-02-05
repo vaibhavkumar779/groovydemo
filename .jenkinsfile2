@@ -30,7 +30,7 @@ sh "mvn test"
 stage('Unit Testing')
 {
 steps{
-bat "mvn compile"
+sh "mvn compile"
 }
 
 }
